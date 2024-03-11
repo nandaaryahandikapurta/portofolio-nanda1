@@ -1,93 +1,68 @@
 *{
     padding: 0;
     margin: 0;
+    background-color: #889EAF;
 }
-body{
-    background-color: #AC76;
-    overflow-x: hidden;
-}
-
 .container {
-    display: flex;
-    overflow-x: hidden;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: 300;
 }
-.logo img {
-    width: 240px;
-    height: 300px;
-    top: 31%;
-    left: 65%;
-    position: absolute;
-    border-radius: 50%;
-    z-index: 999;
-}
-.border {
-    height: 200px;
-    width: 210px;
-    background-color: lightcoral;
-    border-radius: 50%;
-    position: absolute;
-    top: 47%;
-    margin-left: 66%;
-}
-
-.text {
-    margin-top: 20%;
-    margin-left: 12%;
-    font-size: 1.4em;
-}
-
-/* responsive breakpoint */
-
-/* tablet */
-@media screen and (max-width: 768px) {
-    .text {
-        font-size: 1.7em;
-        margin-left: 5%;
-    }
-    .logo img {
-        width: 280px;
-        height: 350px;
-        top: 371px;
-        left: 430px;
-        position: absolute;
-        border-radius: 50%;
-        z-index: 999;
-    }
-    .border {
-        height: 240px;
-        width: 240px;
-        background-color: lightcoral;
-        border-radius: 50%;
-        position: absolute;
-        margin-left: 450px;
-    }
-}
-
 /* mobile */
-@media screen and (max-width:576px){
-    .text {
-        font-size: 20px;
-        margin-left: 5%;
-    }
-    .logo img {
-        width: 147px;
-        height: 193px;
-        display: flex;
-        align-items: center;
-        top: 225px;
-        left: 31px;
-        border-radius: 50%;
-        z-index: 999;
-        
-    }
-    .border {
-        height: 125px;
-        width: 125px;
-        background-color: lightcoral;
-       align-items: center;
-       text-align: center;
-
-       
-       
-    }
+.logo {
+    display: none;
 }
+ nav {
+    display: none;
+ }
+
+ .heading {
+    color: white;
+    margin-top:30%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+ }
+
+ .sub-heading {
+    margin-left: 10px;
+    font-size: 16px;
+    color: white;
+ }
+
+ .img img {
+    width: 120px;
+    height: 160px;
+    margin-left: 15%;
+    background-color: #BDBD61;
+    z-index: 99999999;
+    position: absolute;
+    margin-top: 50px;
+    border-radius: 80%;
+    border: 2px solid black;
+    box-sizing: border-box;
+ }
+.icons i {
+    color: #28282A;
+    padding: 5px;
+    background-color: #F9F9F9;
+    width: 4%;
+    margin-left: 2%;
+    position: relative;
+    display: block;
+    top: 100px;
+    transition: .3s;
+}
+
+.icons i:hover {
+    color: #E82339;
+}
+
+
+
+
+
+
+
+
+
+
