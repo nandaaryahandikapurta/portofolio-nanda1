@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #AC76;
+    overflow-x: hidden;
+}
+
+.logo img {
+    width: 240px;
+    height: 300px;
+    top: 31%;
+    left: 65%;
+    position: absolute;
+    border-radius: 50%;
+    z-index: 999;
+}
+.border {
+    height: 200px;
+    width: 210px;
+    background-color: lightcoral;
+    border-radius: 50%;
+    position: absolute;
+    top: 47%;
+    margin-left: 66%;
+}
+
+.text {
+    margin-top: 20%;
+    margin-left: 12%;
+    font-size: 1.4em;
+}
+
+/* responsive breakpoint */
+
+/* tablet */
+@media screen and (max-width: 768px) {
+    .text {
+        font-size: 1.7em;
+        margin-left: 5%;
+    }
+    .logo img {
+        width: 280px;
+        height: 350px;
+        top: 371px;
+        left: 430px;
+        position: absolute;
+        border-radius: 50%;
+        z-index: 999;
+    }
+    .border {
+        height: 240px;
+        width: 240px;
+        background-color: lightcoral;
+        border-radius: 50%;
+        position: absolute;
+        margin-left: 450px;
+    }
+}
+
+/* mobile */
+@media screen and (max-width:576px){
+    .text {
+        margin-top: 160px;
+        font-size: 25px;
+        margin-left: 5%;
+    }
+    .logo img {
+        width: 280px;
+        height: 350px;
+        top: 322px;
+        left: 25px;
+        position: absolute;
+        border-radius: 50%;
+        z-index: 999;
+    }
+    .border {
+        height: 240px;
+        width: 240px;
+        background-color: lightcoral;
+        top: 431px;
+        right: 130px;
+        position: absolute;
+        border-radius: 50%;
+    }
+}
