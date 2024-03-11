@@ -7,6 +7,10 @@ body{
     overflow-x: hidden;
 }
 
+.container {
+    display: flex;
+    overflow-x: hidden;
+}
 .logo img {
     width: 240px;
     height: 300px;
@@ -68,19 +72,22 @@ body{
     .logo img {
         width: 147px;
         height: 193px;
+        display: flex;
+        align-items: center;
         top: 225px;
         left: 31px;
-        position: absolute;
         border-radius: 50%;
         z-index: 999;
+        
     }
     .border {
         height: 125px;
         width: 125px;
         background-color: lightcoral;
-        top: 293px;
-        right: 333px;
-        position: absolute;
-        border-radius: 50%;
+       align-items: center;
+       text-align: center;
+
+       
+       
     }
 }
