@@ -62,13 +62,12 @@ body{
 /* mobile */
 @media screen and (max-width:576px){
     .text {
-        margin-top: ;
         font-size: 20px;
         margin-left: 5%;
     }
     .logo img {
-        width: 149px;
-        height: 195px;
+        width: 147px;
+        height: 193px;
         top: 225px;
         left: 31px;
         position: absolute;
@@ -76,11 +75,11 @@ body{
         z-index: 999;
     }
     .border {
-        height: 120px;
-        width: 120px;
+        height: 125px;
+        width: 125px;
         background-color: lightcoral;
-        top: 300px;
-        right: 249px;
+        top: 293px;
+        right: 333px;
         position: absolute;
         border-radius: 50%;
     }
