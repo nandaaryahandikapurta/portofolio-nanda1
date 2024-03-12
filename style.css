@@ -37,11 +37,16 @@
     z-index: 99999999;
     position: absolute;
     margin-top: 50px;
-    border-radius: 80%;
+    border-radius: 50%;
     border: 2px solid black;
     box-sizing: border-box;
  }
-.icons i {
+
+.icons a {
+    text-decoration: none;
+}
+
+.icons i  {
     color: #28282A;
     padding: 5px;
     background-color: #F9F9F9;
